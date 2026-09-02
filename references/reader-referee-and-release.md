@@ -59,7 +59,7 @@ When several findings need comparison, use:
 severity | dimension | location | evidence | consequence | smallest next step
 ```
 
-Use dimensions such as `FORMAL`, `MODEL`, `EQUILIBRIUM`, `MECHANISM`, `WELFARE`, `LITERATURE`, and `EXPOSITION`. Distinguish a verified error from a suspected gap or request for clarification. Do not recommend rejection or acceptance unless the user explicitly requests a recommendation and supplies the venue standard and sufficient evidence.
+Use dimensions such as `FORMAL`, `MODEL`, `EQUILIBRIUM`, `MECHANISM`, `WELFARE`, `LITERATURE`, and `EXPOSITION`. Distinguish a verified error from a suspected gap or request for clarification. Before reporting a proof gap as a verified error, confirm it in a fresh context or with an explicit counterexample, following research-loop.md; otherwise report it as a suspected gap. Do not recommend rejection or acceptance unless the user explicitly requests a recommendation and supplies the venue standard and sufficient evidence.
 
 ## Review the full manuscript as a reader
 
@@ -78,11 +78,9 @@ Check that terminology and notation are stable, definitions precede use, example
 
 ## Proofread from source, in verified passes
 
-Work from LaTeX or Markdown source, not from a PDF. A PDF is a layout object that only looks like text; reconstructing notation, line breaks, and equations from it consumes attention the review needs. If only a PDF exists, convert it to Markdown in a separate step and run the review on the Markdown.
+Work from LaTeX or Markdown source as SKILL.md requires; the rendered PDF is inspected separately in the release check below. Identify the target venue or audience before reviewing and apply its standard. Split a large review into focused passes (presentation, notation, consistency, typos, proofs) or into sections, and run each pass from a fresh context when one is available.
 
-Name the target venue or audience at the start; it sets an implicit quality standard. Split a large review into focused passes (presentation, notation, consistency, typos, proofs) or into sections, and run the passes independently.
-
-Review output is non-deterministic: repeated passes find new issues and also produce new false positives. Verify each finding against the source before fixing anything. Collect verified mechanical fixes (typos, notation slips, cross-reference errors) into one list the user can apply and review as a diff. Report substantive problems (a gap in a proof, an inconsistent definition, an unsupported claim) as findings for the author rather than fixing them silently; a claim-bearing repair is a research task.
+Repeated passes find new issues and new false positives. Verify each finding against the source before fixing anything. Collect verified mechanical fixes (typos, notation slips, cross-reference errors) into one list the user can apply and review as a diff. Report substantive problems (a gap in a proof, an inconsistent definition, an unsupported claim) as findings for the author rather than fixing them silently; a claim-bearing repair is a research task.
 
 ## Inspect a submission-ready artifact
 

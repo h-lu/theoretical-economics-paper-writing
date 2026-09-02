@@ -2,7 +2,7 @@
 
 Read this reference only when model primitives, timing, information, equilibrium, proposition scope, proof status, comparative statics, welfare, policy, or claim-bearing prose may change.
 
-The aim is to preserve both formal and economic truth. Keep the audit outside the manuscript unless the user requests it. In a research task, fix the ledger below first and then iterate it with [research-loop.md](research-loop.md).
+The aim is to preserve both formal and economic truth. Keep the audit outside the manuscript unless the user requests it.
 
 ## Contents
 
@@ -77,7 +77,7 @@ For each affected result, record:
 - quantifier order and the dependence of thresholds or constants;
 - whether the conclusion is weak, strict, local, global, generic, almost sure, asymptotic, or numerical;
 - whether it concerns actions, allocations, prices, payoffs, distributions, welfare, or implementation;
-- whether the status is proved, conditional, conjectural, computational, calibrated, or heuristic.
+- whether the status is proved, refuted, conditional, open, conjectural, computational, calibrated, or heuristic.
 
 Trace every clause to the proof or computation that supports it. Check boundary values, ties, zero-probability events, discontinuities, non-convexities, multiple best responses, and empty feasible sets when relevant. Do not generalize from a worked example or a numerical grid.
 
@@ -130,4 +130,4 @@ Call the output illustrative, computational, calibrated, or estimated as appropr
 
 Compare the original and revised claim-bearing passages. Confirm that no primitive, timing clause, information condition, solution concept, selection rule, hypothesis, domain, sign, welfare standard, or proof-status label was lost or altered for style.
 
-If a source proves a weaker statement, an equilibrium condition is missing, the mechanism chain breaks, or the rewrite changes the conclusion, stop that part of the edit. Report the smallest unresolved step and the passages it affects. Do not repair a model or proof gap with prose.
+If a source proves a weaker statement, an equilibrium condition is missing, the mechanism chain breaks, or the rewrite changes the conclusion, stop that part of the edit. Report the smallest unresolved step and the passages it affects. Do not repair a model or proof gap with prose. In a research task, the same gap is the next move of the research loop rather than a reason to stop.
