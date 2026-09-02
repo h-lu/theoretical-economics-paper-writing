@@ -1,4 +1,4 @@
 interface:
   display_name: "Theoretical Economics Paper Writing"
-  short_description: "Write and audit rigorous economic theory papers"
-  default_prompt: "Use $theoretical-economics-paper-writing to strengthen this theory paper while preserving its model, claims, and economic mechanism."
+  short_description: "Sketch, prove, check, and write rigorous economic theory"
+  default_prompt: "Use $theoretical-economics-paper-writing to strengthen this theory project while preserving its verified model, claims, and economic mechanism."

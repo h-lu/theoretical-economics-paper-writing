@@ -50,6 +50,8 @@ Distinguish these possible contributions:
 
 Do not describe a paper as new merely because its notation, application label, functional form, or proof technique differs. Conversely, do not erase a contribution just because the mathematical tools are familiar. State what earlier models could not conclude and which present assumption or construction makes the new conclusion possible.
 
+Assume that your own derivation may reproduce a known result without naming it, and that a result reached in this session may already sit in an appendix somewhere. Before calling a result new, search for it; if you cannot search, label novelty as unverified. Before presenting a derivation as the paper's own, ask whether it is a known result that should be cited instead.
+
 Keep these judgments separate:
 
 1. the journal publishes work in this domain;

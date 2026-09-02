@@ -1,6 +1,6 @@
 # Reader, Referee, and Release Checks
 
-Read this reference only for a whole-manuscript comprehension task, referee-style report, seminar brief, submission build, or final PDF review.
+Read this reference only for a whole-manuscript comprehension task, referee-style report, seminar brief, proofreading pass, submission build, or final PDF review.
 
 ## Test whether the economic argument can be recovered
 
@@ -59,7 +59,7 @@ When several findings need comparison, use:
 severity | dimension | location | evidence | consequence | smallest next step
 ```
 
-Use dimensions such as `FORMAL`, `MODEL`, `EQUILIBRIUM`, `MECHANISM`, `WELFARE`, `LITERATURE`, and `EXPOSITION`. Distinguish a verified error from a suspected gap or request for clarification. Do not recommend rejection or acceptance unless the user explicitly requests a recommendation and supplies the venue standard and sufficient evidence.
+Use dimensions such as `FORMAL`, `MODEL`, `EQUILIBRIUM`, `MECHANISM`, `WELFARE`, `LITERATURE`, and `EXPOSITION`. Distinguish a verified error from a suspected gap or request for clarification. Before reporting a proof gap as a verified error, confirm it in a fresh context or with an explicit counterexample, following research-loop.md; otherwise report it as a suspected gap. Do not recommend rejection or acceptance unless the user explicitly requests a recommendation and supplies the venue standard and sufficient evidence.
 
 ## Review the full manuscript as a reader
 
@@ -75,6 +75,12 @@ Check whether an economist can recover:
 - the precise contribution and main limitation.
 
 Check that terminology and notation are stable, definitions precede use, examples remain within theorem scope, all appendix results are called from the main text, and every central literature comparison has a traceable source. Prefer one authoritative location for each assumption, mechanism explanation, and scope boundary.
+
+## Proofread from source, in verified passes
+
+Work from LaTeX or Markdown source as SKILL.md requires; the rendered PDF is inspected separately in the release check below. Identify the target venue or audience before reviewing and apply its standard. Split a large review into focused passes (presentation, notation, consistency, typos, proofs) or into sections, and run each pass from a fresh context when one is available.
+
+Repeated passes find new issues and new false positives. Verify each finding against the source before fixing anything. Collect verified mechanical fixes (typos, notation slips, cross-reference errors) into one list the user can apply and review as a diff. Report substantive problems (a gap in a proof, an inconsistent definition, an unsupported claim) as findings for the author rather than fixing them silently; a claim-bearing repair is a research task.
 
 ## Inspect a submission-ready artifact
 
