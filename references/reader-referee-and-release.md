@@ -76,6 +76,14 @@ Check whether an economist can recover:
 
 Check that terminology and notation are stable, definitions precede use, examples remain within theorem scope, all appendix results are called from the main text, and every central literature comparison has a traceable source. Prefer one authoritative location for each assumption, mechanism explanation, and scope boundary.
 
+## Proofread from source, in verified passes
+
+Work from LaTeX or Markdown source, not from a PDF. A PDF is a layout object that only looks like text; reconstructing notation, line breaks, and equations from it consumes attention the review needs. If only a PDF exists, convert it to Markdown in a separate step and run the review on the Markdown.
+
+Name the target venue or audience at the start; it sets an implicit quality standard. Split a large review into focused passes (presentation, notation, consistency, typos, proofs) or into sections, and run the passes independently.
+
+Review output is non-deterministic: repeated passes find new issues and also produce new false positives. Verify each finding against the source before fixing anything. Collect verified mechanical fixes (typos, notation slips, cross-reference errors) into one list the user can apply and review as a diff. Report substantive problems (a gap in a proof, an inconsistent definition, an unsupported claim) as findings for the author rather than fixing them silently; a claim-bearing repair is a research task.
+
 ## Inspect a submission-ready artifact
 
 Identify the authoritative source version, build entry point, target venue, and applicable current author instructions. Build with the project's normal toolchain until citations and cross-references stabilize. Read the log for fatal errors, unresolved references, missing inputs, duplicate labels, font issues, and layout warnings that affect the paper.

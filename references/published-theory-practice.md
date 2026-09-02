@@ -50,6 +50,8 @@ Distinguish these possible contributions:
 
 Do not describe a paper as new merely because its notation, application label, functional form, or proof technique differs. Conversely, do not erase a contribution just because the mathematical tools are familiar. State what earlier models could not conclude and which present assumption or construction makes the new conclusion possible.
 
+Assume that an agent aggregates the literature well and attributes it poorly. A result reached in the current session may already sit in an appendix somewhere, and a proof step may reproduce a known technique without naming it. Before calling a result new, search for it; before presenting a derivation as the paper's own, ask whether it is a known result that should be cited instead.
+
 Keep these judgments separate:
 
 1. the journal publishes work in this domain;

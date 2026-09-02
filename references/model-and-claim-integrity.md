@@ -2,7 +2,7 @@
 
 Read this reference only when model primitives, timing, information, equilibrium, proposition scope, proof status, comparative statics, welfare, policy, or claim-bearing prose may change.
 
-The aim is to preserve both formal and economic truth. Keep the audit outside the manuscript unless the user requests it.
+The aim is to preserve both formal and economic truth. Keep the audit outside the manuscript unless the user requests it. In a research task, fix the ledger below first and then iterate it with [research-loop.md](research-loop.md).
 
 ## Contents
 
