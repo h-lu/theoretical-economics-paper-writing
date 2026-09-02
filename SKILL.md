@@ -32,7 +32,7 @@ Do not read every reference by default.
 | Model primitives, timing, information, equilibrium, proposition scope, proof status, comparative statics, welfare, policy, or any rewrite that may alter a claim | [model-and-claim-integrity.md](references/model-and-claim-integrity.md) |
 | Contribution positioning, venue fit, title, abstract, introduction, related literature, whole-paper architecture, or learning current field register from published papers | [published-theory-practice.md](references/published-theory-practice.md) |
 | A field-specific model audit or exposition decision in games, mechanism design, information, contracts, matching, decision/social choice, macro, dynamic, or general-equilibrium theory | [subfield-checks.md](references/subfield-checks.md) |
-| A whole-manuscript comprehension test, referee-style report, seminar brief, submission build, or final PDF review | [reader-referee-and-release.md](references/reader-referee-and-release.md) |
+| A whole-manuscript comprehension test, referee-style report, seminar brief, proofreading pass, submission build, or final PDF review | [reader-referee-and-release.md](references/reader-referee-and-release.md) |
 
 For a local prose revision whose economic meaning and formal statement are already fixed, this file is normally enough.
 

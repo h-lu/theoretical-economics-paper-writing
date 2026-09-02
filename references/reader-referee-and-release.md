@@ -1,6 +1,6 @@
 # Reader, Referee, and Release Checks
 
-Read this reference only for a whole-manuscript comprehension task, referee-style report, seminar brief, submission build, or final PDF review.
+Read this reference only for a whole-manuscript comprehension task, referee-style report, seminar brief, proofreading pass, submission build, or final PDF review.
 
 ## Test whether the economic argument can be recovered
 
