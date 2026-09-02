@@ -39,7 +39,7 @@ assumptions <-> statements <-> proofs
    +-- attempt a proof or a counterexample
    +-- on failure, diagnose the corner that is wrong
    +-- change one assumption, quantifier, or clause; rerun
-   +-- verify in a fresh context; report status and remaining gap
+   +-- verify independently; report each claim's status and remaining gap
 ```
 
 Both modes reconstruct a private model ledger before substantial work:
@@ -150,7 +150,7 @@ separates formal, economic, contribution, and exposition issues.
 - Use current primary literature for contribution and venue judgments.
 - Require fresh evidence before claiming that a manuscript or artifact passed a check.
 
-The design extends the compact, reference-routed approach of [mathematical-paper-skills](https://github.com/h-lu/mathematical-paper-skills) with economics-specific checks for timing, information, equilibrium multiplicity, comparative statics, welfare, implementation, and quantitative boundaries. The research loop follows Pietro Ortoleva and Fedor Sandomirskiy's Markus' Academy mini-series [*AI for Economic Theorists and Mathematicians*](https://markusacademy.substack.com/p/ai-for-economic-theorists-and-mathematicians) (2026): theory as a fixed point of assumptions, statements, and proofs; sketch, attack, repair, and inspiration as the high-value uses; prover separated from verifier; LaTeX in, never PDF.
+The design extends the compact, reference-routed approach of [mathematical-paper-skills](https://github.com/h-lu/mathematical-paper-skills) with economics-specific checks for timing, information, equilibrium multiplicity, comparative statics, welfare, implementation, and quantitative boundaries. The research loop follows Pietro Ortoleva and Fedor Sandomirskiy's Markus' Academy mini-series [*AI for Economic Theorists and Mathematicians*](https://markusacademy.substack.com/p/ai-for-economic-theorists-and-mathematicians) (2026): theory as a fixed point of assumptions, statements, and proofs (a framing they credit to Guillaume Haeringer); sketch, attack, repair, and inspiration as the high-value uses; prover separated from verifier; LaTeX in, never PDF.
 
 ## License
 
