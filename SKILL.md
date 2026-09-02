@@ -1,6 +1,6 @@
 ---
 name: theoretical-economics-paper-writing
-description: Do theoretical-economics research and writing. For research tasks, sketch minimal models from an intuition, generate variants and minimal examples, attempt proofs, construct counterexamples, repair assumptions, and test extensions, microfoundations, and simplifications. For writing tasks, design, draft, restructure, or review theory papers for coherent models, faithful claims, transparent mechanisms, credible literature positioning, and field-appropriate exposition. Use for micro theory, games, mechanism or market design, information or contract theory, decision or social-choice theory, political economy, and macro or general-equilibrium theory; including front matter, literature or venue assessment, whole-paper architecture, model timing and information, equilibrium definitions, propositions and proofs, comparative statics, welfare or policy, extensions, quantitative illustrations, referee reports, rewrites, submission builds, and final-PDF review. For mixed or structural papers, use only for the theory component. Do not use for primarily empirical analysis, classroom problems, policy memos without a formal model, pure-mathematics proofs detached from any economic model, or mechanical LaTeX, copyediting, citation-formatting, and bibliography fixes.
+description: Research and write economic theory. For research tasks, sketch minimal models from an intuition, generate variants, attempt or check proofs, construct counterexamples, repair assumptions, and test extensions, microfoundations, and simplifications. For writing tasks, design, draft, restructure, or review theory papers for coherent models, faithful claims, transparent mechanisms, credible positioning, and clear exposition, including front matter, venue fit, equilibrium definitions, propositions and proofs, comparative statics, welfare, referee reports, proofreading, submission builds, and final-PDF review. Use for micro theory, games, mechanism or market design, information or contract theory, decision or social choice, political economy, and macro or general-equilibrium theory; for mixed papers, only the theory part. Not for primarily empirical analysis, classroom problems, policy memos without a formal model, pure mathematics detached from an economic model, or mechanical LaTeX and bibliography work.
 ---
 
 # Theoretical Economics Paper Writing
@@ -13,14 +13,18 @@ Help an economist search for the fixed point of a theory project (defensible ass
 
 Decide first whether the request is research or writing.
 
-- **Research tasks** ask to sketch, prove, refute, repair, extend, microfound, simplify, or test a model or claim. Assumptions, statements, and proofs are all open to change, but change one corner at a time, keep a record of what moved and why, and never let the direction the user hopes for stand in for evidence. Follow [research-loop.md](references/research-loop.md).
+- **Research tasks** ask to sketch a model, prove, refute, repair, extend, microfound, or simplify a model or claim, or to test whether a claim holds. Assumptions, statements, and proofs are all open to change, but change one corner at a time, keep a record of what moved and why, and never let the direction the user hopes for stand in for evidence. Follow [research-loop.md](references/research-loop.md).
 - **Writing tasks** ask to assess, outline, draft, revise, position, or review a manuscript whose model and claims are fixed. Do only the level of work requested. Treat an assessment as read-only, an outline as architecture rather than prose, and a local revision as authority to change only the named passage. Do not redesign the model, add results, rewrite the whole manuscript, or move proofs merely because those changes might help.
 
-When a writing request turns out to require a model or theorem change, separate that research task from the writing task, identify what must be re-proved, and say so before proceeding.
+A request to check, verify, or assess whether an existing claim or proof is correct is research in method and assessment in deliverable: attack it, verify independently, and label its status, then report the verdict and the exact gap. Offer a repairing assumption as a proposal rather than applying it.
 
-Read the manuscript, project instructions, source files, and authoritative cited results relevant to the task before editing. Preserve unrelated work and any frozen claims, proofs, referee responses, or replication records.
+When a writing request turns out to require a model or theorem change, separate that research task from the writing task, identify what must be re-proved, and do not make the change until the user confirms.
 
-Treat a supplied fragment as a fragment. Do not infer omitted assumptions, equilibrium conditions, proposition content, or proof support from the author's summary. When the necessary source is unavailable, label the affected diagnosis or rewrite as conditional and avoid opening with an unsupported assertion that the missing result "establishes" the claim.
+Read the manuscript, project instructions, source files, and authoritative cited results relevant to the task before editing. Preserve unrelated work and any claims, proofs, referee responses, or replication records the user has marked as fixed.
+
+Work from LaTeX or Markdown source whenever it exists, and ask for it when only a PDF was supplied. If no source is available, convert the PDF to Markdown in a separate step, run the task on the Markdown, and note that findings about equations are conditional on the conversion.
+
+In a writing task, treat a supplied fragment as a fragment. Do not infer omitted assumptions, equilibrium conditions, proposition content, or proof support from the author's summary. When the necessary source is unavailable, label the affected diagnosis or rewrite as conditional and avoid opening with an unsupported assertion that the missing result "establishes" the claim. In a research task, label proposed assumptions as proposals rather than attributing them to the user.
 
 ## Load references selectively
 
@@ -28,7 +32,7 @@ Do not read every reference by default.
 
 | Task | Read |
 |---|---|
-| Model sketching, variants, minimal examples, proof attempts, counterexamples, assumption repair, extensions, microfoundations, simplification, or any task whose answer may change whether a claim is true | [research-loop.md](references/research-loop.md) |
+| Model sketching, variants, minimal examples, proof attempts, checking whether a claim or proof holds, counterexamples, assumption repair, extensions, microfoundations, or simplification | [research-loop.md](references/research-loop.md) |
 | Model primitives, timing, information, equilibrium, proposition scope, proof status, comparative statics, welfare, policy, or any rewrite that may alter a claim | [model-and-claim-integrity.md](references/model-and-claim-integrity.md) |
 | Contribution positioning, venue fit, title, abstract, introduction, related literature, whole-paper architecture, or learning current field register from published papers | [published-theory-practice.md](references/published-theory-practice.md) |
 | A field-specific model audit or exposition decision in games, mechanism design, information, contracts, matching, decision/social choice, macro, dynamic, or general-equilibrium theory | [subfield-checks.md](references/subfield-checks.md) |
@@ -51,7 +55,7 @@ Privately recover a compact model ledger:
 
 Infer these items from the project when possible rather than turning the ledger into a questionnaire. If a material item cannot be recovered, identify the smallest missing choice or unsupported step before drafting around it. In a research task the ledger is the object being iterated: record each version as assumptions, statements, or proofs move.
 
-Audit the paper at three levels, in this order:
+When a manuscript exists, audit it at three levels, in this order:
 
 1. **Formal truth:** Do definitions, assumptions, propositions, proofs, and computations support the stated claim?
 2. **Economic truth:** Do timing, information, feasible deviations, incentives, market clearing, beliefs, and the equilibrium concept support the stated mechanism and interpretation?
