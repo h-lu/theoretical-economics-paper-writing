@@ -1,17 +1,22 @@
 ---
 name: theoretical-economics-paper-writing
-description: Design, draft, restructure, or review theoretical-economics papers for coherent models, faithful claims, transparent mechanisms, credible literature positioning, and field-appropriate exposition. Use for micro theory, games, mechanism or market design, information or contract theory, decision or social-choice theory, political economy, and macro or general-equilibrium theory; including front matter, literature or venue assessment, whole-paper architecture, model timing and information, equilibrium definitions, propositions and proofs, comparative statics, welfare or policy, extensions, quantitative illustrations, referee reports, rewrites, submission builds, and final-PDF review. For mixed or structural papers, use only for the theory component. Do not use for primarily empirical analysis, classroom problems, policy memos without a formal model, detached pure-mathematics proofs, or mechanical LaTeX, copyediting, citation-formatting, and bibliography fixes.
+description: Do theoretical-economics research and writing. Research tasks: sketch minimal models from an intuition, generate variants and minimal examples, attempt proofs, construct counterexamples, repair assumptions, and test extensions, microfoundations, and simplifications. Writing tasks: design, draft, restructure, or review theory papers for coherent models, faithful claims, transparent mechanisms, credible literature positioning, and field-appropriate exposition. Use for micro theory, games, mechanism or market design, information or contract theory, decision or social-choice theory, political economy, and macro or general-equilibrium theory; including front matter, literature or venue assessment, whole-paper architecture, model timing and information, equilibrium definitions, propositions and proofs, comparative statics, welfare or policy, extensions, quantitative illustrations, referee reports, rewrites, submission builds, and final-PDF review. For mixed or structural papers, use only for the theory component. Do not use for primarily empirical analysis, classroom problems, policy memos without a formal model, pure-mathematics proofs detached from any economic model, or mechanical LaTeX, copyediting, citation-formatting, and bibliography fixes.
 ---
 
 # Theoretical Economics Paper Writing
 
 ## Purpose
 
-Help an economist turn established theoretical work into a paper whose economic question, model, result, mechanism, and scope can be recovered by a reader. Improve the argument and exposition without silently changing the environment, equilibrium concept, proof status, or substantive claim.
+Help an economist search for the fixed point of a theory project (defensible assumptions, interesting statements, and proofs that certify them) and then turn the result into a paper whose economic question, model, result, mechanism, and scope can be recovered by a reader. In research work, move one corner of the model at a time and report the exact status of every claim. In writing work, improve the argument and exposition without silently changing the environment, equilibrium concept, proof status, or substantive claim.
 
-## Match the requested scope
+## Identify the task mode and match the requested scope
 
-Do only the level of work requested. Treat an assessment as read-only, an outline as architecture rather than prose, and a local revision as authority to change only the named passage. Do not redesign the model, add results, rewrite the whole manuscript, or move proofs merely because those changes might help. When the user requests a model or theorem change, separate that research task from the writing task and identify what must be re-proved.
+Decide first whether the request is research or writing.
+
+- **Research tasks** ask to sketch, prove, refute, repair, extend, microfound, simplify, or test a model or claim. Assumptions, statements, and proofs are all open to change, but change one corner at a time, keep a record of what moved and why, and never let the direction the user hopes for stand in for evidence. Follow [research-loop.md](references/research-loop.md).
+- **Writing tasks** ask to assess, outline, draft, revise, position, or review a manuscript whose model and claims are fixed. Do only the level of work requested. Treat an assessment as read-only, an outline as architecture rather than prose, and a local revision as authority to change only the named passage. Do not redesign the model, add results, rewrite the whole manuscript, or move proofs merely because those changes might help.
+
+When a writing request turns out to require a model or theorem change, separate that research task from the writing task, identify what must be re-proved, and say so before proceeding.
 
 Read the manuscript, project instructions, source files, and authoritative cited results relevant to the task before editing. Preserve unrelated work and any frozen claims, proofs, referee responses, or replication records.
 
@@ -23,6 +28,7 @@ Do not read every reference by default.
 
 | Task | Read |
 |---|---|
+| Model sketching, variants, minimal examples, proof attempts, counterexamples, assumption repair, extensions, microfoundations, simplification, or any task whose answer may change whether a claim is true | [research-loop.md](references/research-loop.md) |
 | Model primitives, timing, information, equilibrium, proposition scope, proof status, comparative statics, welfare, policy, or any rewrite that may alter a claim | [model-and-claim-integrity.md](references/model-and-claim-integrity.md) |
 | Contribution positioning, venue fit, title, abstract, introduction, related literature, whole-paper architecture, or learning current field register from published papers | [published-theory-practice.md](references/published-theory-practice.md) |
 | A field-specific model audit or exposition decision in games, mechanism design, information, contracts, matching, decision/social choice, macro, dynamic, or general-equilibrium theory | [subfield-checks.md](references/subfield-checks.md) |
@@ -30,7 +36,7 @@ Do not read every reference by default.
 
 For a local prose revision whose economic meaning and formal statement are already fixed, this file is normally enough.
 
-## Reconstruct the economic argument before writing
+## Reconstruct the economic argument before writing or proving
 
 Privately recover a compact model ledger:
 
@@ -43,7 +49,7 @@ Privately recover a compact model ledger:
 - the positive, welfare, distributional, or policy conclusion actually supported;
 - the precise difference from the nearest literature.
 
-Infer these items from the project when possible rather than turning the ledger into a questionnaire. If a material item cannot be recovered, identify the smallest missing choice or unsupported step before drafting around it.
+Infer these items from the project when possible rather than turning the ledger into a questionnaire. If a material item cannot be recovered, identify the smallest missing choice or unsupported step before drafting around it. In a research task the ledger is the object being iterated: record each version as assumptions, statements, or proofs move.
 
 Audit the paper at three levels, in this order:
 
@@ -118,6 +124,6 @@ After any claim-bearing rewrite, compare the old and new passages and check that
 
 ## Finish at the appropriate level
 
-For an assessment, return prioritized findings with locations, evidence, and consequences; do not rewrite. For an outline, return the argument map, section architecture, dependency path, and unresolved decisions. For a local draft, verify the affected claims and read the passage in context. For a literature or positioning task, report the compared sources and versions, the relevant comparison dimensions, the supported delta, unresolved uncertainty, and the search boundary. For a full rewrite, check the entire claim map, cross-references, bibliography links, compilation, and rendered PDF. For a referee or reader task, use the conditional reference's independent-reader protocol.
+For a research task, label each claim as proved, refuted by a stated counterexample, conditional on a named added assumption, or open with the exact remaining gap; report what was verified independently and which steps the user must still check. For an assessment, return prioritized findings with locations, evidence, and consequences; do not rewrite. For an outline, return the argument map, section architecture, dependency path, and unresolved decisions. For a local draft, verify the affected claims and read the passage in context. For a literature or positioning task, report the compared sources and versions, the relevant comparison dimensions, the supported delta, unresolved uncertainty, and the search boundary. For a full rewrite, check the entire claim map, cross-references, bibliography links, compilation, and rendered PDF. For a referee or reader task, use the conditional reference's independent-reader protocol.
 
-State exactly what was checked. Do not claim that the model is correct, the results are novel, the paper is understood by the field, the venue is suitable, or acceptance is likely unless the available evidence supports that narrower conclusion.
+State exactly what was checked. Do not claim that the model is correct, a proof is complete, the results are novel, the paper is understood by the field, the venue is suitable, or acceptance is likely unless the available evidence supports that narrower conclusion.
